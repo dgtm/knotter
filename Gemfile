@@ -19,6 +19,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'devise'
 gem 'haml-rails'
 gem 'omniauth'
+
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
@@ -41,6 +42,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
+  gem 'pry-rails'
   gem 'selenium-webdriver'
 end
 
